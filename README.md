@@ -1,7 +1,7 @@
 //SkyDos, written by Dominic Streif
 //https://github.com/Dom13377/SkyDos.git
 
-I AM NOT RESPONSIBLE FOR THE MISUSE OF THIS PROGRAM!
+**_I AM NOT RESPONSIBLE FOR THE MISUSE OF THIS PROGRAM!_**
 
 Make sure to run with root or adminastrative permissions
 
