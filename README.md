@@ -1,6 +1,6 @@
 //SkyDos, written by Dominic Streif
 
-//https://github.com/Dom13377/SkyDos.git
+https://github.com/Dom13377/SkyDos.git
 
 **_I AM NOT RESPONSIBLE FOR THE MISUSE OF THIS PROGRAM!_**
 
