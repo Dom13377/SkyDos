@@ -37,4 +37,5 @@ or on windows:
 Open the cmd in aministrative mode then type: python3 skydos.py
 
 If you would like buy me a coffee
+
 BTC: 1KupprXM1h3HYr3DiXiUDAnWKkKqf81Jtv
