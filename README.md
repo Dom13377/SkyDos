@@ -5,14 +5,14 @@ I AM NOT RESPONSIBLE FOR THE MISUSE OF THIS PROGRAM!
 
 Make sure to run with root or adminastrative permissions
 
-Usage:
-(D)enial (o)f (S)ervice toolkit for stress testing purposes
+**Usage:
+(D)enial (o)f (S)ervice toolkit for stress testing purposes**
 
-Modules:
+**Modules:
 
 http, icmp, udp, tcp(synflood)
 
-Options:
+**Options:
 
 target, port, count
 
@@ -22,7 +22,7 @@ ex. port 80
 ex. count 1000
 ex. count 0 (This sends an infinite amount of packets CTRL + C to quit)
 
-INSTALLATION:
+**INSTALLATION:
 
 sudo pip3 install -r requirements.txt
 
