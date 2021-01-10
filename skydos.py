@@ -13,9 +13,6 @@ target = None
 port = None
 count = None
 
-if count == 0:
-    count = float('inf')
-
 def prompt():
     global target
     global port
@@ -56,6 +53,8 @@ def prompt():
             print(Fore.RED + 'Unexpected amount of arguments' + Style.RESET_ALL)
             prompt()
         count = int(options[1])
+        if count == 0:
+            count = float('inf')
         prompt()
     elif start == 'exit':
         print(Fore.BLUE + '\nGoodbye' + Style.RESET_ALL)
