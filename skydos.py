@@ -1,5 +1,5 @@
 import socket
-from colorama import *
+from colorama import Fore, Back, Style
 from time import sleep
 import pyfiglet
 import sys
@@ -7,6 +7,7 @@ from scapy.layers.inet import ICMP, IP, TCP, UDP
 from scapy.packet import Raw
 from scapy.volatile import RandShort
 from scapy.sendrecv import send
+import os
 
 target = None
 port = None
@@ -25,7 +26,7 @@ def prompt():
     if options == []:
         prompt()
     if start == 'help':
-        print(Fore.YELLOW + 'Modes= tcp, icmp, udp, http' + '\n' + 'Options= target, port, count' + '\nPrint= values' + '\n\n(Ex.): target 192.168.0.1' + Style.RESET_ALL)
+        print(Fore.YELLOW + 'Modes= tcp, icmp, udp, http' + '\n' + 'Options= target, port, count' + '\nPrint= values' + '\nOther= exit, clear' + '\n\n(Ex.): target 192.168.0.1' + Style.RESET_ALL)
         prompt()
     elif start == 'tcp' and target != None and count != None and port != None:
         Tcpprog()
@@ -59,6 +60,9 @@ def prompt():
     elif start == 'exit':
         print(Fore.BLUE + '\nGoodbye' + Style.RESET_ALL)
         sys.exit(1)
+    elif start == 'clear':
+    	os.system('cls' if os.name == 'nt' else 'clear')
+    	prompt()
     else:
         print(Fore.RED + 'Illegal option' + Style.RESET_ALL)
         prompt()
