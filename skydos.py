@@ -1,5 +1,5 @@
 import socket
-from colorama import Fore, Back, Style
+from colorama import Fore, Back, Style, init
 from time import sleep
 import pyfiglet
 import sys
@@ -8,6 +8,7 @@ from scapy.packet import Raw
 from scapy.volatile import RandShort
 from scapy.sendrecv import send
 import os
+init(convert=True)
 
 target = None
 port = None
