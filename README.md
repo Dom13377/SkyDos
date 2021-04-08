@@ -1,4 +1,4 @@
-//SkyDos, written by Dominic Streif
+//SkyDos, written by Dom13377
 
 https://github.com/Dom13377/SkyDos.git
 
